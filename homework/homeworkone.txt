@@ -1,0 +1,44 @@
+// task 11
+
+//namespace ConsoleApp2
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] world)
+//        {
+//            Console.Write("number = > ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+//            var thousands = number / 1000 % 100 % 10;
+//            var hundreds = number / 100 % 10;
+//            var tens = number / 10 % 10;
+//            var ones = number % 10;
+//            var change = ones;
+//            ones = tens;
+//            tens = change;
+//            var newnumber = thousands * 1000 + hundreds * 100 + tens * 10) + ones;
+//            Console.WriteLine(newnumber);
+//        }
+//    }
+//}
+
+// task 12
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number = > ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+//            var hundred = number / 100 % 10;
+//            var tens = number / 10 % 10;
+//            var ones = number % 10;
+//            var change = tens;
+//            tens = hundred;
+//            hundred = change;
+//            var newNumber = (hundred * 100) + (tens * 10) + ones;
+//            Console.WriteLine(newNumber);
+//        }
+//    }
+//}
