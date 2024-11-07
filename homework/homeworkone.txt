@@ -42,3 +42,94 @@
 //        }
 //    }
 //}
+
+// task 13
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.WriteLine("number => ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+//            var thousand = number / 1000 % 100 % 10;
+//            var hundred = number / 100 % 10;
+//            var tens = number / 10 % 10;
+//            var ones = number % 10;
+//            var change = tens;
+//            tens = thousand;
+//            thousand = change;
+//            var newnumber = (thousand * 1000) + (hundred * 100) + (tens * 10) + ones;
+//            Console.WriteLine(newnumber);
+//        }
+//    }
+//}
+// task 13
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.WriteLine("number => ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+//            var thousand = number / 1000 % 100 % 10;
+//            var hundred = number / 100 % 10;
+//            var tens = number / 10 % 10;
+//            var ones = number % 10;
+//            var change = tens;
+//            tens = thousand;
+//            thousand = change;
+//            var newnumber = (thousand * 1000) + (hundred * 100) + (tens * 10) + ones;
+//            Console.WriteLine(newnumber);
+//        }
+//    }
+//}
+
+
+// task 14
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("gb ni kiriting => ");
+//            var gb = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(gb * 1024);
+//        }
+//    }
+//}
+
+// task 15
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("gb ni kiriting => ");
+//            var gb = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(gb * 3080);
+//        }
+//    }
+//}
+
+// task 16
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number => ");
+//            var gb = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(gb / 1024);
+//        }
+//    }
+//}
