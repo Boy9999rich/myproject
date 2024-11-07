@@ -133,3 +133,81 @@
 //        }
 //    }
 //}
+
+// task 17
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number => ");
+//            var flashDriveSize = Convert.ToInt32(Console.ReadLine());
+//            var movieSize = 2;
+//            var newSize = flashDriveSize / movieSize;
+//            Console.WriteLine(newSize);
+//            Main();
+//        }
+//    }
+//}
+
+// task 18
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number => ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+//            var square = number * number;
+//            var result = square * square * square;
+//            Console.WriteLine($"{number} sonining 6 darajasi {result}");
+//            Main();
+//        }
+//    }
+//}
+
+// task 19
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number => ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+//            var square = number * number;
+//            var result = square * square * square * square;
+//            Console.WriteLine($"{number} sonining 8 darajasi {result}");
+//            Main();
+//        }
+//    }
+//}
+
+// task 20
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number => ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+
+//            if (number % 2 == 0)
+//            {
+//                Console.WriteLine($"{number} soni juft");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{number} soni toq");
+//            }
+//            Main();
+//        }
+//    }
+//}
