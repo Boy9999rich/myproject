@@ -65,28 +65,6 @@
 //        }
 //    }
 //}
-// task 13
-
-//namespace ConsoleApp2
-//{
-//    class Program
-//    {
-//        static void Main()
-//        {
-//            Console.WriteLine("number => ");
-//            var number = Convert.ToInt32(Console.ReadLine());
-//            var thousand = number / 1000 % 100 % 10;
-//            var hundred = number / 100 % 10;
-//            var tens = number / 10 % 10;
-//            var ones = number % 10;
-//            var change = tens;
-//            tens = thousand;
-//            thousand = change;
-//            var newnumber = (thousand * 1000) + (hundred * 100) + (tens * 10) + ones;
-//            Console.WriteLine(newnumber);
-//        }
-//    }
-//}
 
 
 // task 14
@@ -207,6 +185,1127 @@
 //            {
 //                Console.WriteLine($"{number} soni toq");
 //            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 21
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number => ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+
+//            if (number % 2 == 1)
+//            {
+//                Console.WriteLine($"{number} soni toq");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{number} soni juft");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 22
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number => ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+
+//            if (number >= 10 && number <= 99)
+//            {
+//                Console.WriteLine($"{number} ikki xonali");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{number} ikki xonali emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 23
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number => ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+
+//            if(number >= 1000 && number <= 9999)
+//            {
+//                Console.WriteLine($"{number} 4 xonali");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{number} 4 xonali emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 24
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number => ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+
+//            if (number >= 10 && number <= 99 && number % 2 == 0)
+//            {
+//                Console.WriteLine($"{number} 2 xonali va juft son");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{number} toq va 2 xonali emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 25
+
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number => ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+
+//            if (number >= 100 && number <= 999 && number % 2 == 1)
+//            {
+//                Console.WriteLine($"{number} 3 xonali va toq son");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{number} juft va 3 xonali emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 7
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number => ");
+//            var number = Convert.ToInt32(Console.ReadLine());
+
+//            if (number >= 1000 && number <= 9999 && number % 2 == 0)
+//            {
+//                Console.WriteLine($"{number} 4 xonali va juft son");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{number} toq yoki 4 xonali emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 8
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("firstNumber => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("secondNumber => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (firstNumber % 2 == 1 && secondNumber % 2 == 1) 
+//            {
+//                Console.WriteLine($"{firstNumber} va {secondNumber} sonlari toq");
+//            }
+//            else
+//            {
+//                Console.WriteLine("bu sonlar toq emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 9
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("firstNumber => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("secondNumber => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (firstNumber % 2 == 0 && secondNumber % 2 == 0)
+//            {
+//                Console.WriteLine($"{firstNumber} va {secondNumber} sonlari juft");
+//            }
+//            else
+//            {
+//                Console.WriteLine("bu sonlar juft emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 10
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("firstNumber => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("secondNumber => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (firstNumber % 2 == 1 && firstNumber >= 10 && firstNumber <= 99 && 
+//                secondNumber >= 10 && secondNumber <= 99 && secondNumber % 2 == 1)
+//            {
+//                Console.WriteLine($"{firstNumber} va {secondNumber} sonlari toq va 2 xonali");
+//            }
+//            else
+//            {
+//                Console.WriteLine("bu sonlar toq va ikki xonali emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 11
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var Number = Convert.ToInt32(Console.ReadLine());
+
+//            var tens = Number / 10;
+//            var ones = Number % 10;
+
+//            if (tens == ones)
+//            {
+//                Console.WriteLine("ikkalasi teng");
+//            }
+//            else
+//            {
+//                Console.WriteLine("bu sonlar teng emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 12
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var Number = Convert.ToInt32(Console.ReadLine());
+
+//            var tens = Number / 10;
+//            var ones = Number % 10;
+//            var add = tens + ones;
+
+//            if (add > 10 && add >= 10 && add <= 99)
+//            {
+//                Console.WriteLine("yigindi 10 dan katta");
+//            }
+//            else
+//            {
+//                Console.WriteLine("yigindi 10 dan katta emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 13
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var Number = Convert.ToInt32(Console.ReadLine());
+
+//            var tens = Number / 10;
+//            var ones = Number % 10;
+//            var add = tens * ones;
+
+//            if (add > 20 && add >= 10 && add <= 99)
+//            {
+//                Console.WriteLine("kopaytma 20 dan katta");
+//            }
+//            else
+//            {
+//                Console.WriteLine("kopaytma 20 dan katta emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 14
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var Number = Convert.ToInt32(Console.ReadLine());
+
+//            var tens = Number / 10;
+//            var ones = Number % 10;
+
+//            if (tens % 2 == 1 && ones % 2 == 1)
+//            {
+//                Console.WriteLine("ikkalasi ham toq");
+//            }
+//            else
+//            {
+//                Console.WriteLine(" toq emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 15
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var Number = Convert.ToInt32(Console.ReadLine());
+
+//            var tens = Number / 10;
+//            var ones = Number % 10;
+
+//            if (tens > 5 && ones > 5)
+//            {
+//                Console.WriteLine("ikkalasi ham 5 dan katta");
+//            }
+//            else
+//            {
+//                Console.WriteLine(" 5 dan katta emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 16
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var Number = Convert.ToInt32(Console.ReadLine());    
+
+//            if (Number % 3 == 0)
+//            {
+//                Console.WriteLine($"{Number} soni 3 ga karrali");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{Number} soni 3 ga karrali emas");
+//            }
+//            Main();
+//        }
+//    }
+//}
+
+// task 17
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var Number = Convert.ToInt32(Console.ReadLine());
+
+//            if (Number % 7 == 0)
+//            {
+//                Console.WriteLine($"{Number} soni 7 ga karrali");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{Number} soni 7 ga karrali emas");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 18
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var Number = Convert.ToInt32(Console.ReadLine());
+
+//            if (Number % 8 == 0 && Number % 3 == 0)
+//            {
+//                Console.WriteLine("bu raqam 3 ga va 8 ga karrali");
+//            }
+//            else
+//            {
+//                Console.WriteLine("bu raqam 3 ga va 8 ga karrali emas");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 19
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var Number = Convert.ToInt32(Console.ReadLine());
+
+//            if (Number % 7 == 0 || Number % 9 == 0)
+//            {
+//                Console.WriteLine("bu raqam 7 ga yoki 9 ga karrali");
+//            }
+//            else
+//            {
+//                Console.WriteLine("bu raqam 7 ga yoki 9 ga karrali emas");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 20
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var Number = Convert.ToInt32(Console.ReadLine());
+
+//            if (Number % 3 == 0 )
+//            {
+//                Console.WriteLine("bu raqam 3 ga karrali");
+//            }
+//            else
+//            {
+//                Console.WriteLine("bu raqam 3 ga karrali emas");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 21
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var Number = Convert.ToInt32(Console.ReadLine());
+
+//            if (Number % 5 != 0)
+//            {
+//                Console.WriteLine("bu raqam 5 ga bo'linmaydi");
+//            }
+//            else
+//            {
+//                Console.WriteLine("bu raqam 5 ga bo'linadi");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 22
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var Number = Convert.ToInt32(Console.ReadLine());
+
+//            if (Number % 4 == 0 && Number % 2 != 3)
+//            {
+//                Console.WriteLine("bu raqam 4 ga bo'linadi va 3 ga bo'linmaydi");
+//            }
+//            else
+//            {
+//                Console.WriteLine("bu raqam xato");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 23
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (firstNumber > secondNumber)
+//            {
+//                Console.WriteLine($"{firstNumber} katta {secondNumber}");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{firstNumber} katta emas {secondNumber}");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 24
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (firstNumber == secondNumber)
+//            {
+//                Console.WriteLine($"{firstNumber} teng {secondNumber} ga");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{firstNumber} teng emas {secondNumber}");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 25
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var thirdNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (firstNumber > secondNumber && firstNumber > thirdNumber)
+//            {
+//                Console.WriteLine($"{firstNumber} soni {secondNumber} va {thirdNumber} sonlaridan katta");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{firstNumber} soni {secondNumber} va {thirdNumber} sonlaridan katta emas");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 26
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var thirdNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (thirdNumber > secondNumber && firstNumber < thirdNumber)
+//            {
+//                Console.WriteLine($"{thirdNumber} soni {secondNumber} va {firstNumber} sonlaridan katta");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{thirdNumber} soni {secondNumber} va {firstNumber} sonlaridan katta emas");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 27
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var thirdNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (thirdNumber > secondNumber && firstNumber > secondNumber)
+//            {
+//                Console.WriteLine($"{secondNumber} soni {thirdNumber} va {firstNumber} sonlaridan kichik");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{secondNumber} soni {thirdNumber} va {firstNumber} sonlaridan kichik emas");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 28
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (firstNumber > secondNumber * 2)
+//            {
+//                Console.WriteLine($"{firstNumber} soni {secondNumber} dan 2 martaga katta");
+//            }
+//            else
+//            {
+//                Console.WriteLine($" {firstNumber} soni {secondNumber} sonidan 2 marta katta emas");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 29
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (firstNumber * 5 < secondNumber)
+//            {
+//                Console.WriteLine($"{secondNumber} soni  {firstNumber} dan 5 martaga katta");
+//            }
+//            else
+//            {
+//                Console.WriteLine($" {secondNumber} soni {firstNumber} sonidan 5 marta katta emas");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 30
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (firstNumber * 4 < secondNumber )
+//            {
+//                Console.WriteLine($"{secondNumber} soni  {firstNumber} dan 4 martaga katta");
+//            }
+//            else if( firstNumber > secondNumber * 4)
+//            {
+//                Console.WriteLine($" {firstNumber} soni  {secondNumber} sonidan 4 marta katta ");
+//            }
+//            else
+//            {
+//                Console.WriteLine("ikkalasi teng");
+//            }
+
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 31
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (firstNumber > secondNumber)
+//            {
+//                Console.WriteLine($"{firstNumber}");
+//            }
+//            else 
+//            {
+//                Console.WriteLine($" {secondNumber} ");
+//            }
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 32
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            if (firstNumber < secondNumber)
+//            {
+//                Console.WriteLine($"{firstNumber}");
+//            }
+//            else
+//            {
+//                Console.WriteLine($" {secondNumber} ");
+//            }
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 33
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            var multiply = 1;
+//            var add = 0;
+//            if (firstNumber >= 10 && firstNumber <= 99 && secondNumber >= 10 && secondNumber <= 99)
+//            {
+//                add = firstNumber + secondNumber;
+//                Console.WriteLine(add);
+//            }
+//            else
+//            {
+//                multiply = firstNumber * secondNumber;
+//                Console.WriteLine(multiply);
+//            }
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 34
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            var multiply = 1;
+//            var add = 0;
+//            if (firstNumber % 2 == 0 && secondNumber % 2 == 0)
+//            {
+//                add = firstNumber + secondNumber;
+//                Console.WriteLine(add);
+//            }
+//            else
+//            {
+//                multiply = firstNumber * secondNumber;
+//                Console.WriteLine(multiply);
+//            }
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 35
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            var multiply = 1;
+//            var add = 0;
+//            if (firstNumber % 2 == 1 && secondNumber % 2 == 1)
+//            {
+//                multiply = firstNumber * secondNumber;
+//                Console.WriteLine(multiply);
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{firstNumber} {secondNumber}");
+//            }
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 36
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Number => ");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("Number => ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("number 3 = > ");
+//            var thirdNumber = Convert.ToInt32(Console.ReadLine());
+
+//            var counter = 0;
+//            if (firstNumber % 2 != 0)
+//            {
+//                counter++;
+//            }
+//            if (secondNumber % 2 != 0)
+//            {
+//                counter++;
+//            }
+//            if (thirdNumber % 2 != 0)
+//            {
+//                counter++;
+//            }
+//            Console.WriteLine($"toq sonlar soni {counter} ta");
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 37
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("4 xonal son kiriting =>");
+//            var number = Convert.ToInt32(Console.ReadLine());
+//            var counter = 0;
+//            if (number >= 1000 && number <= 9999)
+//            {
+
+//                while(number > 0)
+//                {
+//                    var result = number % 10;
+//                    if(result % 2 == 0)
+//                    {
+//                        counter++;
+//                    }
+//                    number /= 10;
+//                }
+//                Console.WriteLine($"juft sonlar {counter} ta");
+//            }
+//            else
+//            {
+//                Console.WriteLine("4 xonali son kiriting");
+//            }
+
+
+//            Main();
+//        }
+//    }
+//}
+
+// task 38
+
+//using System.Threading.Channels;
+
+//namespace ConsoleApp2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("number 1 =>");
+//            var firstNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("number 2 =-> ");
+//            var secondNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("number 3 = >> ");
+//            var thirdNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("number 4 =>>");
+//            var fourthNumber = Convert.ToInt32(Console.ReadLine());
+
+//            Console.Write("number 5 => ");
+//            var fifthNumber = Convert.ToInt32(Console.ReadLine());
+
+//            var counter = 0;
+//            if (firstNumber % 2 == 0)
+//            {
+//                counter++;
+//            }
+//            if (secondNumber % 2 == 0)
+//            {
+//                counter++;
+//            }
+//            if (thirdNumber % 2 == 0)
+//            {
+//                counter++;
+//            }
+//            if (fourthNumber % 2 == 0)
+//            {
+//                counter++;
+//            }
+//            if (fifthNumber % 2 == 0)
+//            {
+//                counter++;
+//            }
+//            Console.WriteLine($"juf sonlar {counter} ta");
 //            Main();
 //        }
 //    }
